@@ -7,10 +7,14 @@ components:
 releases: 
 - !ditz.rubyforge.org,2008-03-06/release 
   name: Interview2
-  status: :unreleased
-  release_time: 
+  status: :released
+  release_time: 2011-11-22 09:41:25.763761 Z
   log_events: 
   - - 2011-11-22 02:05:13.278307 Z
     - Charles Suehs <skelter@skelter.net>
     - created
     - Things I'd better have ready for tomorrow
+  - - 2011-11-22 09:41:25.763772 Z
+    - Charles Suehs <skelter@skelter.net>
+    - released
+    - I wonder if I made it more complicated than it was supposed to be.
