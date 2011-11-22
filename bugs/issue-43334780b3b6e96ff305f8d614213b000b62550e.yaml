@@ -5,8 +5,8 @@ type: :task
 component: HeadspringFizzBuzz
 release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2011-11-22 01:56:21.697536 Z
 references: []
 
@@ -19,4 +19,12 @@ log_events:
 - - 2011-11-22 02:06:56.095495 Z
   - Charles Suehs <skelter@skelter.net>
   - assigned to release Interview2 from unassigned
+  - ""
+- - 2011-11-22 05:02:12.006952 Z
+  - Charles Suehs <skelter@skelter.net>
+  - changed status from unstarted to in_progress
+  - refactoring into packages
+- - 2011-11-22 05:07:17.715143 Z
+  - Charles Suehs <skelter@skelter.net>
+  - closed with disposition fixed
   - ""
