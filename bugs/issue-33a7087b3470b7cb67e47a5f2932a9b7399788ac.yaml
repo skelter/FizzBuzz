@@ -14,8 +14,8 @@ type: :feature
 component: HeadspringFizzBuzz
 release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
-status: :in_progress
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2011-11-22 01:58:21.497642 Z
 references: []
 
@@ -41,3 +41,14 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - commented
   - I think the approach will be to cook a list of multiples that the base fizzbuz will use.
+- - 2011-11-22 09:39:04.541009 Z
+  - Charles Suehs <skelter@skelter.net>
+  - commented
+  - |-
+    I'm pretty tired so I would recommend someone reviewing this if this were real-world.  Perhaps check it into branch or even a copy of a repo, and not push these particular changes just yet.  But, this is for fun, so it's committed.  I ended up reviewing discrete math from my college
+    days and finding that the combinatorial problem mapped to enumerating a powerset.  If you map that to bits of an integer, it becomes
+    easy enough to generate.  I think I got it.  We'll see how the review goes tomorrow.
+- - 2011-11-22 09:39:40.618361 Z
+  - Charles Suehs <skelter@skelter.net>
+  - closed with disposition fixed
+  - Preggo!
