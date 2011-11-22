@@ -5,8 +5,8 @@ type: :task
 component: HeadspringFizzBuzz
 release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2011-11-22 01:32:40.823368 Z
 references: []
 
@@ -20,3 +20,11 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - assigned to release Interview2 from unassigned
   - ""
+- - 2011-11-22 04:56:07.646614 Z
+  - Charles Suehs <skelter@skelter.net>
+  - changed status from unstarted to in_progress
+  - method should be static
+- - 2011-11-22 05:01:09.042969 Z
+  - Charles Suehs <skelter@skelter.net>
+  - closed with disposition fixed
+  - fixed it up.  is now static as a clean function should be.
