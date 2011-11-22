@@ -1,5 +1,5 @@
 
-public class FizzBuz {
+public class FizzBuzz {
 
 	public String fizzbuzz(int n) {
 		if (n % 5 == 0 && n % 3 == 0) {
@@ -35,7 +35,7 @@ public class FizzBuz {
 	 */
 	public static String fizzbuzz(int min, int max) {
 		StringBuilder builder = new StringBuilder();
-		FizzBuz fb = new FizzBuz();
+		FizzBuzz fb = new FizzBuzz();
 		for (int i=min; i <= max; i++) {
 			builder.append(fb.fizzbuzz(i));
 			builder.append("\n");

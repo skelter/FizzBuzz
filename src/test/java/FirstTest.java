@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class FirstTest {
 
-	private FizzBuz fb;
+	private FizzBuzz fb;
 
 	/** Numbers 1-100,  if divisible by 3 print fizz, if evenly divisible by 5 print buzz, and if evenly divisible by both, print fizzbuz.  
 	 * 
@@ -22,7 +22,7 @@ public class FirstTest {
 	
 	@Before
 	public void setUp() {
-	  fb = new FizzBuz();	
+	  fb = new FizzBuzz();	
 	}
 	
 	@Test 
