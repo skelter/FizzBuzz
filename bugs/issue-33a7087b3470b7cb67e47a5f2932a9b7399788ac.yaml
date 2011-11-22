@@ -33,3 +33,7 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - changed status from unstarted to in_progress
   - now it gets fun
+- - 2011-11-22 05:36:07.282413 Z
+  - Charles Suehs <skelter@skelter.net>
+  - commented
+  - the primary logic seems complete
