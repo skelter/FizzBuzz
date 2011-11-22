@@ -5,8 +5,8 @@ type: :task
 component: HeadspringFizzBuzz
 release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
-status: :in_progress
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2011-11-22 01:57:02.438901 Z
 references: []
 
@@ -28,3 +28,11 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - commented
   - source tree fixed.  Mavenization should be about done.
+- - 2011-11-22 04:45:17.593104 Z
+  - Charles Suehs <skelter@skelter.net>
+  - changed status from in_progress to paused
+  - done.
+- - 2011-11-22 04:45:39.231314 Z
+  - Charles Suehs <skelter@skelter.net>
+  - closed with disposition fixed
+  - ""
