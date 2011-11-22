@@ -1,16 +1,16 @@
 package net.suehs.fizzbuzz;
 
-public class FizzBuzz {
+import java.util.List;
 
+public class FizzBuzz {
+    static List<TermMap> traditionalTermMap = 
+    	TraditionalTermMap.build(); 
+	
 	public static String fizzbuzz(int n) {
-		if (n % 5 == 0 && n % 3 == 0) {
-			return "fizzbuzz";
-		}
-		if (n % 5 == 0) {
-			return "buzz";
-		}
-		if (n % 3 == 0) {
-			return "fizz";
+		for (TermMap termmap : traditionalTermMap) {
+			if (n % termmap.n == 0) {
+				return termmap.term;
+			}
 		}
 		return "" + n; 
 	}
