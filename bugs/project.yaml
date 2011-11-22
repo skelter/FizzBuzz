@@ -4,5 +4,13 @@ version: "0.5"
 components: 
 - !ditz.rubyforge.org,2008-03-06/component 
   name: HeadspringFizzBuzz
-releases: []
-
+releases: 
+- !ditz.rubyforge.org,2008-03-06/release 
+  name: Interview2
+  status: :unreleased
+  release_time: 
+  log_events: 
+  - - 2011-11-22 02:05:13.278307 Z
+    - Charles Suehs <skelter@skelter.net>
+    - created
+    - Things I'd better have ready for tomorrow

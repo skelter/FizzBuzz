@@ -3,7 +3,7 @@ title: Refactor classes to packages
 desc: Yes this is a trivial app, but these classes should not be in the top level package.  Refactor them to appropriate packages.
 type: :task
 component: HeadspringFizzBuzz
-release: 
+release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
 status: :unstarted
 disposition: 
@@ -15,4 +15,8 @@ log_events:
 - - 2011-11-22 01:56:22.809460 Z
   - Charles Suehs <skelter@skelter.net>
   - created
+  - ""
+- - 2011-11-22 02:06:56.095495 Z
+  - Charles Suehs <skelter@skelter.net>
+  - assigned to release Interview2 from unassigned
   - ""

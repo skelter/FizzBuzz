@@ -12,7 +12,7 @@ desc: |-
   [ ] Submit via github or bitbucket
 type: :feature
 component: HeadspringFizzBuzz
-release: 
+release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
 status: :unstarted
 disposition: 
@@ -25,3 +25,7 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - created
   - "3 fizz, 5 buzz, 8 sprite should automatically pick out combinations: 15 fizzbuz, 24 fizzsprite, 40 buzzsprite"
+- - 2011-11-22 02:07:03.726794 Z
+  - Charles Suehs <skelter@skelter.net>
+  - assigned to release Interview2 from unassigned
+  - ""

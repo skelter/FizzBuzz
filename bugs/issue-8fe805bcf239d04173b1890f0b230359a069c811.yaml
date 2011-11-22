@@ -3,7 +3,7 @@ title: Fix class name
 desc: It's mizzing a z.
 type: :task
 component: HeadspringFizzBuzz
-release: 
+release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
 status: :unstarted
 disposition: 
@@ -15,4 +15,8 @@ log_events:
 - - 2011-11-22 01:54:14.353902 Z
   - Charles Suehs <skelter@skelter.net>
   - created
+  - ""
+- - 2011-11-22 02:06:51.327735 Z
+  - Charles Suehs <skelter@skelter.net>
+  - assigned to release Interview2 from unassigned
   - ""

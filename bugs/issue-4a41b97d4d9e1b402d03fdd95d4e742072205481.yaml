@@ -3,7 +3,7 @@ title: FizzBuzz should be static
 desc: This class has no state.  These methods should be static and we shouldn't have to create an instance.
 type: :task
 component: HeadspringFizzBuzz
-release: 
+release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
 status: :unstarted
 disposition: 
@@ -15,4 +15,8 @@ log_events:
 - - 2011-11-22 01:32:44.735085 Z
   - Charles Suehs <skelter@skelter.net>
   - created
+  - ""
+- - 2011-11-22 02:06:45.896932 Z
+  - Charles Suehs <skelter@skelter.net>
+  - assigned to release Interview2 from unassigned
   - ""

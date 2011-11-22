@@ -3,7 +3,7 @@ title: Mavenize the project
 desc: Create a pom.xml for use by maven and jenkins.  Artifact should be a jar.
 type: :task
 component: HeadspringFizzBuzz
-release: 
+release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
 status: :unstarted
 disposition: 
@@ -15,4 +15,8 @@ log_events:
 - - 2011-11-22 01:57:04.310670 Z
   - Charles Suehs <skelter@skelter.net>
   - created
+  - ""
+- - 2011-11-22 02:06:59.727314 Z
+  - Charles Suehs <skelter@skelter.net>
+  - assigned to release Interview2 from unassigned
   - ""
