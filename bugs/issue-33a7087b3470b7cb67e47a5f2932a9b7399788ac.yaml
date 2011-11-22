@@ -37,3 +37,7 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - commented
   - the primary logic seems complete
+- - 2011-11-22 05:50:17.226997 Z
+  - Charles Suehs <skelter@skelter.net>
+  - commented
+  - I think the approach will be to cook a list of multiples that the base fizzbuz will use.
