@@ -24,3 +24,7 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - changed status from unstarted to in_progress
   - I'll be happier if I have CI going and a real build outside of Eclipse.  If I had teammates, they'd be happier too.
+- - 2011-11-22 02:49:43.645927 Z
+  - Charles Suehs <skelter@skelter.net>
+  - commented
+  - source tree fixed.  Mavenization should be about done.
