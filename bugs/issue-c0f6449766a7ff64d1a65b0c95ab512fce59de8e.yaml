@@ -5,7 +5,7 @@ type: :task
 component: HeadspringFizzBuzz
 release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
-status: :unstarted
+status: :in_progress
 disposition: 
 creation_time: 2011-11-22 01:57:02.438901 Z
 references: []
@@ -20,3 +20,7 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - assigned to release Interview2 from unassigned
   - ""
+- - 2011-11-22 02:10:22.225812 Z
+  - Charles Suehs <skelter@skelter.net>
+  - changed status from unstarted to in_progress
+  - I'll be happier if I have CI going and a real build outside of Eclipse.  If I had teammates, they'd be happier too.
