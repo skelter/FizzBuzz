@@ -3,6 +3,13 @@ package net.suehs.fizzbuzz;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * TraditionalTermMap is the traditional fizzbuzz term map, mapping
+ * 3 to fizz, 5 to buzz and 15 to fizzbuzz.
+ * 
+ * @author skelter
+ *
+ */
 class TraditionalTermMap {
 	static List<TermMap> build() {
 		List<TermMap> mappings = new ArrayList<TermMap>();
