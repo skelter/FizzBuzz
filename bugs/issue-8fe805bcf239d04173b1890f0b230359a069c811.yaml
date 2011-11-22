@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Fix class name
+desc: It's mizzing a z.
+type: :task
+component: HeadspringFizzBuzz
+release: 
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2011-11-22 01:54:12.554252 Z
+references: []
+
+id: 8fe805bcf239d04173b1890f0b230359a069c811
+log_events: 
+- - 2011-11-22 01:54:14.353902 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - ""

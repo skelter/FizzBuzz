@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Refactor classes to packages
+desc: Yes this is a trivial app, but these classes should not be in the top level package.  Refactor them to appropriate packages.
+type: :task
+component: HeadspringFizzBuzz
+release: 
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2011-11-22 01:56:21.697536 Z
+references: []
+
+id: 43334780b3b6e96ff305f8d614213b000b62550e
+log_events: 
+- - 2011-11-22 01:56:22.809460 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - ""

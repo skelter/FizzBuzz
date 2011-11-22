@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Mavenize the project
+desc: Create a pom.xml for use by maven and jenkins.  Artifact should be a jar.
+type: :task
+component: HeadspringFizzBuzz
+release: 
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2011-11-22 01:57:02.438901 Z
+references: []
+
+id: c0f6449766a7ff64d1a65b0c95ab512fce59de8e
+log_events: 
+- - 2011-11-22 01:57:04.310670 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - ""

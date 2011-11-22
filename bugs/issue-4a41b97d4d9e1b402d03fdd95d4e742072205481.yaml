@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: FizzBuzz should be static
+desc: This class has no state.  These methods should be static and we shouldn't have to create an instance.
+type: :task
+component: HeadspringFizzBuzz
+release: 
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2011-11-22 01:32:40.823368 Z
+references: []
+
+id: 4a41b97d4d9e1b402d03fdd95d4e742072205481
+log_events: 
+- - 2011-11-22 01:32:44.735085 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - ""
