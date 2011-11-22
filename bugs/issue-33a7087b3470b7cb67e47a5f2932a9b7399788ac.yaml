@@ -14,7 +14,7 @@ type: :feature
 component: HeadspringFizzBuzz
 release: Interview2
 reporter: Charles Suehs <skelter@skelter.net>
-status: :unstarted
+status: :in_progress
 disposition: 
 creation_time: 2011-11-22 01:58:21.497642 Z
 references: []
@@ -29,3 +29,7 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - assigned to release Interview2 from unassigned
   - ""
+- - 2011-11-22 05:13:02.388767 Z
+  - Charles Suehs <skelter@skelter.net>
+  - changed status from unstarted to in_progress
+  - now it gets fun
