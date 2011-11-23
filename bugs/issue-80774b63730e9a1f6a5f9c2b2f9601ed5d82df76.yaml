@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Simply by pushing iteration over terms into the fizzbuzz method.
+desc: |-
+  We can skip the powerset and expansion of terms by pushing the iteration over the terms into the fizzbuzz method. 
+  This might simplify the code and safe us a discrete math degree.
+type: :task
+component: HeadspringFizzBuzz
+release: PostReview
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2011-11-23 00:39:53.180455 Z
+references: []
+
+id: 80774b63730e9a1f6a5f9c2b2f9601ed5d82df76
+log_events: 
+- - 2011-11-23 00:40:06.155803 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - I thought about this on the way home.
