@@ -7,7 +7,7 @@ type: :task
 component: HeadspringFizzBuzz
 release: PostReview
 reporter: Charles Suehs <skelter@skelter.net>
-status: :unstarted
+status: :in_progress
 disposition: 
 creation_time: 2011-11-23 00:39:53.180455 Z
 references: []
@@ -18,3 +18,9 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - created
   - I thought about this on the way home.
+- - 2011-11-23 01:56:21.213655 Z
+  - Charles Suehs <skelter@skelter.net>
+  - changed status from unstarted to in_progress
+  - |-
+    Yeah, was much simpler if you just iterate in the inner fizzbuzz method.  An interesting problem remains, however, that it can be order
+    dependent.  We could sort.  Might need to check with the client.

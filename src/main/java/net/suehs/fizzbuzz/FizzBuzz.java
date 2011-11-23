@@ -15,12 +15,16 @@ public class FizzBuzz {
     }
     
 	public static String fizzbuzz(List<TermMap> map, int n) {
+		StringBuffer buff = new StringBuffer();
 		for (TermMap termmap : map) {
 			if (n % termmap.n == 0) {
-				return termmap.term;
+				buff.append( termmap.term);
 			}
 		}
-		return "" + n; 
+		if (buff.length() > 0) {
+			return buff.toString();
+		}
+		return "" + n;
 	}
 	
 	public static void main(String[] args) {
@@ -46,12 +50,12 @@ public class FizzBuzz {
 	 * @return
 	 */
 	public static String fizzbuzz(List<TermMap> map, int min, int max) {
-		List<TermMap> multipleMap = expandMap(map);
-		Collections.sort(multipleMap);
-		Collections.reverse(multipleMap);
+//		List<TermMap> multipleMap = expandMap(map);
+//		Collections.sort(multipleMap);
+//		Collections.reverse(multipleMap);
 		StringBuilder builder = new StringBuilder();
 		for (int i=min; i <= max; i++) {
-			builder.append(FizzBuzz.fizzbuzz(multipleMap,i));
+			builder.append(FizzBuzz.fizzbuzz(map,i));
 			builder.append("\n");
 		}	
 		return builder.toString();
@@ -62,7 +66,7 @@ public class FizzBuzz {
 	}
 
 	/**
-	 * Expend the given list of terms to a list of their combinations.
+	 * Expand the given list of terms to a list of their combinations.
 	 * @param givenMap
 	 * @return
 	 */
