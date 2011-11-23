@@ -75,13 +75,13 @@ public class FascinatingCuriosity {
 	}
 
 	private static TermMap combineTerms(TermMap[] terms, Integer[] indices) {
-		String name = "";
+		StringBuffer nameBuffer = new StringBuffer();
 		int factor = 1;
 		for(int i : indices) {
 			factor *= terms[i].n;
-			name += terms[i].term;
+			nameBuffer.append( terms[i].term);
 		}
-		return new TermMap(factor, name);
+		return new TermMap(factor, nameBuffer.toString());
 	}
 
 }
