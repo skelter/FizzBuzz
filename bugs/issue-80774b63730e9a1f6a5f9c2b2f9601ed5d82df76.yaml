@@ -7,8 +7,8 @@ type: :task
 component: HeadspringFizzBuzz
 release: PostReview
 reporter: Charles Suehs <skelter@skelter.net>
-status: :in_progress
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2011-11-23 00:39:53.180455 Z
 references: []
 
@@ -24,3 +24,7 @@ log_events:
   - |-
     Yeah, was much simpler if you just iterate in the inner fizzbuzz method.  An interesting problem remains, however, that it can be order
     dependent.  We could sort.  Might need to check with the client.
+- - 2011-11-23 02:08:18.782878 Z
+  - Charles Suehs <skelter@skelter.net>
+  - closed with disposition fixed
+  - Much simpler
